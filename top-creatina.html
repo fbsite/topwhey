@@ -92,7 +92,13 @@
         .ranking { display:grid; grid-template-columns:repeat(auto-fit, minmax(300px,1fr)); gap:2rem; margin:3rem 0; }
         .card { background:white; border-radius:15px; overflow:hidden; box-shadow:0 5px 20px rgba(0,0,0,0.1); transition:0.3s; }
         .card:hover { transform:translateY(-10px); box-shadow:0 15px 30px rgba(0,0,0,0.15); }
-        .card-img { height:200px; object-fit:cover; width:100%; background-color: #eee; }
+        .card-img { 
+            height:200px; 
+            object-fit: contain; /* Garante que a imagem inteira seja visível */ 
+            width:100%; 
+            background-color: #fafafa; /* Fundo limpo para a imagem */
+            padding: 10px; /* Adiciona um respiro para a imagem */
+        }
         .card-body { padding:1.5rem; }
         .card h3 { font-size:1.4rem; margin-bottom:0.5rem; color:var(--dark); }
         .price { font-size:1.8rem; font-weight:900; color:var(--primary); margin:1rem 0; }
@@ -288,9 +294,10 @@
                 <span class="hamburger-line"></span>
                 <span class="hamburger-line"></span>
             </button>
+            <!-- ================== LINKS DA NAV ATUALIZADOS ================== -->
             <ul id="nav-links-list" class="nav-links">
                 <li><a href="top-creatina.html">🏆 Top Creatina</a></li>
-                <li><a href="top-whey.html">🥤 Top Whey Protein</a></li>
+                <li><a href="index.html">🥤 Top Whey Protein</a></li> <!-- ATUALIZADO PARA INDEX -->
                 <li><a href="blog.html">📝 Blog</a></li>
             </ul>
         </div>
@@ -312,7 +319,11 @@
     
     <!-- ====================== ESPAÇO DE ANÚNCIO (NOVO) ====================== -->
     <div class="container">
-        <div class="ad-placeholder">ESPAÇO PARA ANÚNCIO (728x90)</div>
+        <div class="ad-placeholder"><a href="https://lmdee.link/UrPSQ5JFACQs" target="_blank" style="display: block; margin: 0; padding: 0; border: none; text-decoration: none;">
+    <img src="https://i.supaimg.com/6f9994b5-a0e6-4d14-9ffb-8d519478cbd1.png" 
+         alt="Promoção imperdível Brain One" 
+         style="display: block; width: 100%; max-width: 1200px; height: auto; border: 0;">
+</a></div>
     </div>
 
     <!-- ====================== GUIA DO COMPRADOR (ADAPTADO PARA CREATINA) ====================== -->
@@ -351,13 +362,13 @@
         
         <div class="ranking">
 
-            <!-- 1º LUGAR -->
+            <!-- 1º LUGAR (IMAGEM/PREÇO/LINK ATUALIZADOS) -->
             <div class="card">
-                <img src="https://m.media-amazon.com/images/I/71jZ5p8zQSL._AC_SL1500_.jpg" alt="Creatina Growth Supplements 250g" class="card-img" onerror="this.src='https://placehold.co/600x600/1d3557/f1faee?text=Creatina+Growth';">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_662415-MLA97812910758_112025-OO.jpg" alt="Creatina Growth Supplements 250g" class="card-img" onerror="this.src='https://placehold.co/600x600/1d3557/f1faee?text=Creatina+Growth';">
                 <div class="card-body">
                     <h3>🥇 1º - Growth Supplements Creatina 250g <span class="badge">MELHOR CUSTO</span></h3>
                     <div class="stars">★★★★★ (4.487 avaliações)</div>
-                    <div class="price">R$ 69,90 <small>ou 6x de R$ 11,65</small></div>
+                    <div class="price">R$ 39,90</div>
                     <ul class="pros">
                         <li>100% Creapure® (patente alemã)</li>
                         <li>Dissolução perfeita (zero grumos)</li>
@@ -366,19 +377,19 @@
                     <ul class="cons">
                         <li>Só 250g (dura 50 dias)</li>
                     </ul>
-                    <a href="https://www.amazon.com.br/dp/B08KJH1234?tag=seuafiliado-20" target="_blank" class="btn" style="margin-top:1rem; width:100%; text-align:center;">
-                        🚀 COMPRAR COM DESCONTO (10% OFF)
+                    <a href="https://mercadolivre.com/sec/2K1ddex" target="_blank" class="btn" style="margin-top:1rem; width:100%; text-align:center;">
+                        🚀 COMPRAR AGORA
                     </a>
                 </div>
             </div>
 
-            <!-- 2º LUGAR -->
+            <!-- 2º LUGAR (IMAGEM/PREÇO/LINK ATUALIZADOS) -->
             <div class="card">
-                <img src="https://m.media-amazon.com/images/I/81ZPd2Q3pLL._AC_SL1500_.jpg" alt="Creatina Max Titanium 300g" class="card-img" onerror="this.src='https://placehold.co/600x600/e63946/f1faee?text=Creatina+Max';">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_991049-MLA95659366412_102025-OO.jpg" alt="Creatina Max Titanium 300g" class="card-img" onerror="this.src='https://placehold.co/600x600/e63946/f1faee?text=Creatina+Max';">
                 <div class="card-body">
                     <h3>🥈 2º - Max Titanium Creatina 300g <span class="badge">MAIS VENDIDA</span></h3>
                     <div class="stars">★★★★☆ (3.892 avaliações)</div>
-                    <div class="price">R$ 89,90 <small>ou 6x de R$ 14,98</small></div>
+                    <div class="price">R$ 55,45</div>
                     <ul class="pros">
                         <li>Embalagem com zip (não umedece)</li>
                         <li>Selo Creapure®</li>
@@ -387,19 +398,19 @@
                     <ul class="cons">
                         <li>Preço 28% acima da Growth</li>
                     </ul>
-                    <a href="https://www.amazon.com.br/dp/B07XYZ7890?tag=seuafiliado-20" target="_blank" class="btn" style="margin-top:1rem; width:100%; text-align:center;">
-                        🛒 COMPRAR NA AMAZON
+                    <a href="https://mercadolivre.com/sec/1TWPvmu" target="_blank" class="btn" style="margin-top:1rem; width:100%; text-align:center;">
+                        🛒 COMPRAR AGORA
                     </a>
                 </div>
             </div>
 
-            <!-- 3º LUGAR -->
+            <!-- 3º LUGAR (IMAGEM/PREÇO/LINK ATUALIZADOS) -->
             <div class="card">
-                <img src="https://m.media-amazon.com/images/I/61XwYJ2zQKL._AC_SL1500_.jpg" alt="Creatina Integralmedica 300g" class="card-img" onerror="this.src='https://placehold.co/600x600/457b9d/f1faee?text=Creatina+Integral';">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_915440-MLA95698002740_102025-OO.jpg" alt="Creatina Integralmedica 300g" class="card-img" onerror="this.src='https://placehold.co/600x600/457b9d/f1faee?text=Creatina+Integral';">
                 <div class="card-body">
                     <h3>🥉 3º - Integralmedica Darkness 300g <span class="badge">BRASILEIRA</span></h3>
                     <div class="stars">★★★★☆ (2.105 avaliações)</div>
-                    <div class="price">R$ 79,90 <small>ou 6x de R$ 13,32</small></div>
+                    <div class="price">R$ 48,83</div>
                     <ul class="pros">
                         <li>Micronizada (absorção +20%)</li>
                         <li>Laudo de pureza incluso</li>
@@ -407,19 +418,19 @@
                     <ul class="cons">
                         <li>Alguns relatam gosto residual</li>
                     </ul>
-                    <a href="https://www.amazon.com.br/dp/B09ABC4567?tag=seuafiliado-20" target="_blank" class="btn" style="margin-top:1rem; width:100%; text-align:center;">
+                    <a href="https://mercadolivre.com/sec/1Rk5bkK" target="_blank" class="btn" style="margin-top:1rem; width:100%; text-align:center;">
                         🛒 VER OFERTA
                     </a>
                 </div>
             </div>
 
-            <!-- 4º LUGAR -->
+            <!-- 4º LUGAR (IMAGEM/PREÇO/LINK ATUALIZADOS) -->
             <div class="card">
-                <img src="https://placehold.co/600x600/2a9d8f/f1faee?text=Creatina+Soldiers" alt="Creatina Soldiers 300g" class="card-img" onerror="this.src='https://placehold.co/600x600/dddddd/aaaaaa?text=Creatina+Soldiers';">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_849628-MLA95693176090_102025-OO.jpg" alt="Creatina Soldiers 300g" class="card-img" onerror="this.src='https://placehold.co/600x600/2a9d8f/f1faee?text=Creatina+Soldiers';">
                 <div class="card-body">
                     <h3>4º - Soldiers Nutrition Creatina 300g</h3>
                     <div class="stars">★★★★☆ (1.800 avaliações)</div>
-                    <div class="price">R$ 75,00</div>
+                    <div class="price">R$ 34,40</div>
                     <ul class="pros">
                         <li>Preço muito competitivo</li>
                         <li>100% Pura (laudos aprovados)</li>
@@ -427,19 +438,19 @@
                     <ul class="cons">
                         <li>Embalagem simples</li>
                     </ul>
-                    <a href="https://www.amazon.com.br/dp/B09DEF4567?tag=seuafiliado-20" target="_blank" class="btn" style="margin-top:1rem; width:100%; text-align:center;">
+                    <a href="https://mercadolivre.com/sec/1LytQYs" target="_blank" class="btn" style="margin-top:1rem; width:100%; text-align:center;">
                         🛒 VER OFERTA
                     </a>
                 </div>
             </div>
             
-            <!-- 5º LUGAR -->
+            <!-- 5º LUGAR (IMAGEM/PREÇO/LINK ATUALIZADOS) -->
             <div class="card">
-                <img src="https://placehold.co/600x600/f4a261/1d3557?text=Creatina+Probiotica" alt="Creatina Probiótica 300g" class="card-img" onerror="this.src='https://placehold.co/600x600/dddddd/aaaaaa?text=Creatina+Probiotica';">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_796656-MLA96100119103_102025-OO.jpg" alt="Creatina Probiótica 300g" class="card-img" onerror="this.src='https://placehold.co/600x600/f4a261/1d3557?text=Creatina+Probiotica';">
                 <div class="card-body">
                     <h3>5º - Probiótica Pura Creatina 300g</h3>
                     <div class="stars">★★★☆☆ (1.150 avaliações)</div>
-                    <div class="price">R$ 85,90</div>
+                    <div class="price">R$ 47,00</div>
                     <ul class="pros">
                         <li>Marca tradicional e confiável</li>
                         <li>Fácil de encontrar em lojas físicas</li>
@@ -448,7 +459,7 @@
                         <li>Não é Creapure®</li>
                         <li>Dissolução um pouco mais lenta</li>
                     </ul>
-                    <a href="https://www.amazon.com.br/dp/B08PRO4567?tag=seuafiliado-20" target="_blank" class="btn" style="margin-top:1rem; width:100%; text-align:center;">
+                    <a href="https://mercadolivre.com/sec/2RAk31T" target="_blank" class="btn" style="margin-top:1rem; width:100%; text-align:center;">
                         🛒 VER OFERTA
                     </a>
                 </div>
@@ -460,7 +471,7 @@
     <!-- ====================== AUTHOR BOX ====================== -->
     <section class="container">
         <div class="author-box">
-            <img src="https://placehold.co/100x100/1d3557/f1faee?text=Autor" alt="Foto do Autor do Review" class="author-img">
+            <img src="https://cdn.pixabay.com/photo/2023/04/01/23/53/man-7893263_1280.jpg?text=Autor" alt="Autor do Review" class="author-img">
             <div class="author-info">
                 <h3>Sobre o Autor: Carlos Mendes</h3>
                 <p style="font-style:italic; color:var(--gray); margin-bottom:0.5rem;">Especialista em Nutrição Esportiva e Treinador</p>
@@ -471,7 +482,11 @@
 
     <!-- ====================== ESPAÇO DE ANÚNCIO (NOVO) ====================== -->
     <div class="container">
-        <div class="ad-placeholder">ESPAÇO PARA ANÚNCIO (728x90 ou 300x250)</div>
+        <div <a href="https://lmdee.link/UrPSQ5JFACQs" target="_blank" style="display: block; margin: 0; padding: 0; border: none; text-decoration: none;">
+    <img src="https://i.supaimg.com/6f9994b5-a0e6-4d14-9ffb-8d519478cbd1.png" 
+         alt="Promoção imperdível Brain One" 
+         style="display: block; width: 100%; max-width: 1200px; height: auto; border: 0;">
+</a></div>
     </div>
 
     <!-- ====================== FAQ (ADAPTADO PARA CREATINA) ====================== -->
